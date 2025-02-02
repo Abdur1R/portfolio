@@ -49,7 +49,6 @@ function Home2() {
                   Next.js, Shotstack, Eleven Labs, and AI to create dynamic,
                   personalized experiences.
                 </li>
-
                 <li>
                   Built a <b className="purple">Quality Assurance Tool</b> using
                   Django and React, reducing QA efforts by 42%.
