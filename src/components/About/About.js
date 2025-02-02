@@ -39,7 +39,7 @@ function About() {
         </h1>
 
         <p className="home-about-body">
-          I'm <strong className="purple">Mohit Bodhija</strong>, a full-stack
+          I'm <strong className="purple">Abdur Rahman Shaik</strong>, a full-stack
           developer with more than 3 years of experience. My tech stack includes{" "}
           <strong className="purple">
             React.js, Next.js, Django, FastAPI, JavaScript, Python, HTML, and

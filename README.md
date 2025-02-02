@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://my-bio-zeta.vercel.app/" target="_blank">Mohit Bodhija</a>
+  <a href="https://my-bio-zeta.vercel.app/" target="_blank">Abdur Rahman Shaik</a>
 </h2>
 <div align="center">
 <!--   <img alt="Demo" src="./Images/readme-img1.png" /> -->

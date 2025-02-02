@@ -14,7 +14,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Mohit Bodhija</h3>
+          <h3>Designed and Developed by Abdur Rahman Shaik</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} MB</h3>
@@ -23,7 +23,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/mohitbodhija"
+                href="https://github.com/abdur1r"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/mohitbodhija"
+                href="https://twitter.com/AbdurRahmanSk11"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/mohit-bodhija-2a576b17b/"
+                href="https://www.linkedin.com/in/abdurrahmanshaik/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/mbodhija"
+                href="https://www.instagram.com/a.b.d.u.r.1"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
