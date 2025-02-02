@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Mohit.png";
+import myImg from "../../Assets/ProfilePic.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,15 +19,15 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hi, I'm <span className="purple">Mohit Bodhija</span>, a
-              passionate full-stack developer with over 3 years of experience in
+              Hi, I'm <span className="purple">Abdur Rahman Shaik</span>, a
+              passionate full-stack developer with over 2 years of experience in
               crafting seamless web experiences.
               <br />
               <br />I am proficient in a variety of technologies, including
               <i>
                 <b className="purple">
                   {" "}
-                  React.js, Next.js, Django, FastAPI, Javascript, and Python.{" "}
+                  React.js, Node.js, Spring Boot, Webpack, Javascript, JAVA,and Python.{" "}
                 </b>
               </i>
               <br />
@@ -89,7 +89,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/mohitbodhija"
+                  href="https://github.com/abdur1r"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -99,7 +99,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/mohitbodhija"
+                  href="https://x.com/AbdurRahmanSk11"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -109,7 +109,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/mohit-bodhija-2a576b17b/"
+                  href="https://www.linkedin.com/in/abdurrahmanshaik/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -119,7 +119,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/mohitbodhija"
+                  href="https://www.instagram.com/a.b.d.u.r.1"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
