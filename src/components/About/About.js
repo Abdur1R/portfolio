@@ -40,9 +40,9 @@ function About() {
 
         <p className="home-about-body">
           I'm <strong className="purple">Abdur Rahman Shaik</strong>, a full-stack
-          developer with more than 3 years of experience. My tech stack includes{" "}
+          developer with more than 2 years of experience. My tech stack includes{" "}
           <strong className="purple">
-            React.js, Next.js, Django, FastAPI, JavaScript, Python, HTML, and
+            React.js, Node.js, Django, Spring Boot, JavaScript, Python, JAVA, HTML, and
             CSS
           </strong>
           .
@@ -62,23 +62,22 @@ function About() {
           Here are some highlights from my work:
           <ul>
             <li>
-              Developed a{" "}
-              <strong className="purple">Memory-Making Web App</strong> using
-              Next.js, Shotstack, Eleven Labs, and AI.
+              Developed a <strong className="purple">software-based load balancer</strong> using Java and Socket Programming, implementing the
+              Round-Robin algorithm for efficient traffic distribution across multiple servers. Integrated real-time server
+              health monitoring to detect failures and reroute traffic dynamically, ensuring high availability and reliability.
             </li>
             <li>
               Created a <strong className="purple">QA Tool</strong> that reduced
               QA efforts by 42%, built with Django and React.
             </li>
             <li>
-              Built a <strong className="purple">JIRA Utility Tool</strong>{" "}
-              integrating JIRA REST APIs to automate ticket tracking and improve
-              team collaboration.
+              Developed and integrated <strong className="purple">module federated applications</strong> by exposing multiple remote apps as child apps
+              and seamlessly embedding them as separate React components in the host app using Webpack’s
+              module federation.
             </li>
             <li>
-              Designed{" "}
-              <strong className="purple">Personalized Dashboards</strong> to
-              speed up decision-making by 30% using React.
+              Implemented user-centric features, including dynamic task categorization and priority settings, leveraging
+              <strong className="purple">RESTful APIs</strong> for efficient data management and ensuring a streamlined user experience.
             </li>
           </ul>
         </p>

@@ -12,8 +12,8 @@ function AboutCard() {
             <span className="purple">India.</span>
             <br />
             I am a full-stack developer with more than 3 years of experience in
-            technologies like React.js, Next.js, Django, FastAPI, JavaScript,
-            Python, HTML, and CSS.
+            technologies like React.js, Node.js, Django, Spring Boot, JavaScript, Python, JAVA, HTML, and
+            CSS.
             <br />
             <br />
             I have worked on exciting projects that involve building reusable
@@ -31,7 +31,7 @@ function AboutCard() {
               <ImPointRight /> Reading Tech Blogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Swimming and playing badminton
+              <ImPointRight /> Playing badminton
             </li>
           </ul>
 

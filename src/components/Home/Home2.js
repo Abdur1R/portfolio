@@ -27,7 +27,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  React.js, Next.js, Django, FastAPI, Javascript, and Python.{" "}
+                  React.js, Webpack (Module Federation), Spring Boot, Javascript, JAVA and Python.{" "}
                 </b>
               </i>
               <br />
@@ -45,31 +45,26 @@ function Home2() {
               <b>Some of the projects I'm proud of:</b>
               <ul>
                 <li>
-                  Built a <b className="purple">Memory-Making Web App</b> using
-                  Next.js, Shotstack, Eleven Labs, and AI to create dynamic,
-                  personalized experiences.
-                </li>
-
-                <li>
                   Built a <b className="purple">Quality Assurance Tool</b> using
                   Django and React, reducing QA efforts by 42%.
+                </li>
+                <li>
+                  Developed a <b className="purple">Kafka-driven trails/logging feature</b> to capture and store events in Loki, with a Spring Boot
+                  endpoint for retrieving data based on user-selected date ranges via a ReactJS UI. Clients such as
+                  MERCK and Regions Bank have subscribed to this feature for a fee of $25,000.
                 </li>
                 <li>
                   Developed a <b className="purple">JIRA Utility Tool</b> by
                   integrating JIRA REST APIs, improving project workflows.
                 </li>
                 <li>
-                  Created a <b className="purple">Team Details Service</b> using
-                  FASTAPI to enhance user onboarding.
-                </li>
-                <li>
-                  Designed <b className="purple">Personalized Dashboards</b>{" "}
-                  that reduced decision time by 30% using React.
+                  Integrated multiple child applications into a single parent app using <b className="purple">Webpack 5's module federation </b>
+                  feature, significantly improving deployment speed and efficiency while enhancing application scalability.
                 </li>
               </ul>
               <br />
               I've converted over 20 Figma designs into functional apps with{" "}
-              <b className="purple">React and Next.js</b>, leveraging frameworks
+              <b className="purple">React and JavaScript</b>, leveraging frameworks
               like Ant Design, Material-UI, and Bootstrap for responsive and
               user-friendly interfaces.
             </p>
@@ -131,7 +126,7 @@ function Home2() {
           </Col>
         </Row>
       </Container>
-    </Container>
+    </Container >
   );
 }
 export default Home2;
