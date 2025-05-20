@@ -15,56 +15,68 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiSolidity,
+  SiTypescript,
   SiPostgresql,
+  SiMysql
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
+import SpringBoot from "../../Assets/spring-boot.svg";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+      <Col title="Spring Boot" xs={4} md={2} className="tech-icons">
+        <img
+          src={SpringBoot}
+          style={{
+            backgroundColor: "white",
+            width: "40px"
+          }}
+        />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col title="TypeScript" xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col title="JavaScript" xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col title="Node.js" className="tech-icons">
         <DiNodejs />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col title="React.js" ssName=" tech-icons">
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      <Col title="MongoDB" xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      <Col title="Git" xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col title="SQL" className=" tech-icons">
+        <SiMysql />
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      <Col title="SQL" xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col title="Python" xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col title="Java" xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
-    </Row>
+    </Row >
   );
 }
 
