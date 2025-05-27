@@ -27,7 +27,8 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  React.js, Webpack (Module Federation), Spring Boot, Javascript, JAVA and Python.{" "}
+                  React.js, Webpack (Module Federation), TypeScript, Node.js, Django, Spring Boot, JavaScript, Python, JAVA, HTML, and
+                  CSS
                 </b>
               </i>
               <br />
@@ -42,16 +43,24 @@ function Home2() {
               diverse requirements.
               <br />
               <br />
-              <b>Some of the projects I'm proud of:</b>
+              <b>Professional work highlights:</b>
               <ul>
+                <li>
+                  Designed and implemented a <b className="purple">Kafka-based publish-subscribe</b> logging system to capture and persist
+                  user and system events across Phenom products. Events were published to Kafka and stored using
+                  Loki, with a Spring Boot-based API for querying logs by date range. A ReactJS frontend enabled
+                  dynamic log retrieval. Enterprise clients, including MERCK and Regions Bank, adopted this feature
+                  under a $25,000 subscription model.
+                </li>
+                <li>
+                  I've converted over 20 Figma designs into functional apps with{" "}
+                  <b className="purple">React and JavaScript</b>, leveraging frameworks
+                  like Ant Design, Material-UI, and Bootstrap for responsive and
+                  user-friendly interfaces.
+                </li>
                 <li>
                   Built a <b className="purple">Quality Assurance Tool</b> using
                   Django and React, reducing QA efforts by 42%.
-                </li>
-                <li>
-                  Developed a <b className="purple">Kafka-driven trails/logging feature</b> to capture and store events in Loki, with a Spring Boot
-                  endpoint for retrieving data based on user-selected date ranges via a ReactJS UI. Clients such as
-                  MERCK and Regions Bank have subscribed to this feature for a fee of $25,000.
                 </li>
                 <li>
                   Developed a <b className="purple">JIRA Utility Tool</b> by
@@ -63,10 +72,14 @@ function Home2() {
                 </li>
               </ul>
               <br />
-              I've converted over 20 Figma designs into functional apps with{" "}
-              <b className="purple">React and JavaScript</b>, leveraging frameworks
-              like Ant Design, Material-UI, and Bootstrap for responsive and
-              user-friendly interfaces.
+              <b>Academic highlights:</b>
+              <ul>
+                <li>
+                  Developed a <strong className="purple">software-based load balancer</strong> using Java and Socket Programming, implementing the
+                  Round-Robin algorithm for efficient traffic distribution across multiple servers. Integrated real-time server
+                  health monitoring to detect failures and reroute traffic dynamically, ensuring high availability and reliability.
+                </li>
+              </ul>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

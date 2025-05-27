@@ -12,8 +12,8 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
+        {/* <Row style={{ justifyContent: "center", padding: "10px" }}> */}
+        {/* <Col
             md={7}
             style={{
               justifyContent: "center",
@@ -80,8 +80,10 @@ function About() {
               <strong className="purple">RESTful APIs</strong> for efficient data management and ensuring a streamlined user experience.
             </li>
           </ul>
-        </p>
-
+        </p> */}
+        <h1 className="project-heading">
+          <strong className="purple">Skills:</strong>
+        </h1>
         <Techstack />
 
         <h1 className="project-heading">
