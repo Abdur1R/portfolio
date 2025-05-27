@@ -1,0 +1,141 @@
+.education-card {
+    position: relative;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f3f4f6;
+    transition: all 0.5s ease;
+  }
+  
+  .education-card:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .education-card.latest {
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+  }
+  
+  .education-card .badge-current {
+    position: absolute;
+    top: -0.75rem;
+    left: 1.5rem;
+    background: linear-gradient(to right, #2563eb, #7c3aed);
+    color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education-card-content {
+    padding: 2rem;
+  }
+  
+  .education-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  
+  .education-header .icon-container {
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .education-card:hover .icon-container {
+    transform: scale(1.1);
+  }
+  
+  .education-card.latest .icon-container {
+    background: linear-gradient(to right, #dbeafe, #ede9fe);
+  }
+  
+  .education-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+  }
+  
+  .education-institution {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 0.75rem;
+  }
+  
+  .education-meta {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .education-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4b5563;
+    font-weight: 500;
+  }
+  
+  .education-cgpa {
+    background: linear-gradient(to right, #ecfdf5, #d1fae5);
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    color: #047857;
+    font-weight: 600;
+  }
+  
+  .coursework-section {
+    border-top: 1px solid #f3f4f6;
+    padding-top: 1.5rem;
+  }
+  
+  .coursework-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    color: #1f2937;
+    font-weight: 600;
+  }
+  
+  .coursework-badge {
+    display: inline-block;
+    background: linear-gradient(to right, #f9fafb, #f3f4f6);
+    color: #374151;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: default;
+  }
+  
+  .coursework-badge:hover {
+    background: linear-gradient(to right, #eff6ff, #ede9fe);
+    color: #1d4ed8;
+  }
+  
+  .education-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 1rem;
+    background: linear-gradient(to right, rgba(75, 85, 99, 0.05), rgba(31, 41, 55, 0.05));
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+  }
+  
+  .education-card:hover::after {
+    opacity: 1;
+  }
+  
+  .education-card.latest::after {
+    background: linear-gradient(to right, rgba(59, 130, 246, 0.05), rgba(147, 51, 234, 0.05));
+  }
+  
