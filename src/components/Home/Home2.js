@@ -18,70 +18,92 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+
             <p className="home-about-body">
-              Hi, I'm <span className="purple">Abdur Rahman Shaik</span>, a
-              passionate full-stack developer with over 2 years of experience in
-              crafting seamless web experiences.
+              Hi, I’m <span className="purple">Abdur Rahman Shaik</span>, a
+              full-stack software engineer with <b className="purple">2+ years of professional experience</b>,
+              currently graduating with a <b className="purple">Master’s degree</b>.
+              I enjoy building scalable, production-grade systems and user-facing products
+              that create real-world impact.
               <br />
-              <br />I am proficient in a variety of technologies, including
+              <br />
+
+              I have hands-on experience across the stack, including
               <i>
                 <b className="purple">
                   {" "}
-                  React.js, Webpack (Module Federation), TypeScript, Node.js, Django, Spring Boot, JavaScript, Python, JAVA, HTML, and
-                  CSS
+                  React, Next.js, TypeScript, JavaScript, Node.js, Django, Spring Boot,
+                  Java, Python, Kafka, PostgreSQL, HTML, and CSS
                 </b>
               </i>
+              .
               <br />
               <br />
-              My expertise includes{" "}
-              <b className="purple">Component-based Development</b>, where I
-              have built reusable components such as Navbars, Footers, and
-              Forms, ensuring scalability and maintainability.
-              <br />I have also developed{" "}
-              <b className="purple">advanced components</b> like audio
-              recorders, file-saver functionalities, and photo scanners, meeting
-              diverse requirements.
+
+              I specialize in <b className="purple">component-driven development</b> and
+              scalable frontend architectures, building reusable, maintainable UI systems
+              while working closely with backend services and APIs.
+              <br />
+              I’ve also built complex, production-ready features including
+              <b className="purple"> data-driven dashboards, internal developer tools,
+                and performance-sensitive user interfaces</b>.
               <br />
               <br />
-              <b>Professional work highlights:</b>
+
+              <b>Professional highlights:</b>
               <ul>
                 <li>
-                  Designed and implemented a <b className="purple">Kafka-based publish-subscribe</b> logging system to capture and persist
-                  user and system events across Phenom products. Events were published to Kafka and stored using
-                  Loki, with a Spring Boot-based API for querying logs by date range. A ReactJS frontend enabled
-                  dynamic log retrieval. Enterprise clients, including MERCK and Regions Bank, adopted this feature
-                  under a $25,000 subscription model.
+                  Designed and built a <b className="purple">Kafka-based distributed logging system</b>
+                  to capture and persist application and user events across multiple products.
+                  Implemented a Spring Boot API for querying logs and a React-based UI for dynamic analysis.
+                  This feature was adopted by enterprise clients including <b className="purple">Merck</b> and
+                  <b className="purple"> Regions Bank</b> and shipped as a
+                  <b className="purple"> $25K enterprise subscription</b>.
                 </li>
+
                 <li>
-                  I've converted over 20 Figma designs into functional apps with{" "}
-                  <b className="purple">React and JavaScript</b>, leveraging frameworks
-                  like Ant Design, Material-UI, and Bootstrap for responsive and
-                  user-friendly interfaces.
+                  Built and shipped <b className="purple">production-grade frontend applications</b>,
+                  converting 20+ Figma designs into responsive, accessible interfaces using
+                  React, TypeScript, and modern UI frameworks.
                 </li>
+
                 <li>
-                  Built a <b className="purple">Quality Assurance Tool</b> using
-                  Django and React, reducing QA efforts by 42%.
+                  Developed internal platforms that improved engineering efficiency, including a
+                  <b className="purple"> Quality Assurance system</b> that reduced QA effort by
+                  <b className="purple"> 42%</b>.
                 </li>
+
                 <li>
-                  Developed a <b className="purple">JIRA Utility Tool</b> by
-                  integrating JIRA REST APIs, improving project workflows.
+                  Integrated multiple independently deployed applications into a single platform using
+                  <b className="purple"> Webpack 5 Module Federation</b>, significantly improving deployment
+                  speed, scalability, and team autonomy.
                 </li>
+
                 <li>
-                  Integrated multiple child applications into a single parent app using <b className="purple">Webpack 5's module federation </b>
-                  feature, significantly improving deployment speed and efficiency while enhancing application scalability.
+                  Worked on systems emphasizing <b className="purple">performance, reliability,
+                    and maintainability</b>, collaborating closely with product and cross-functional teams.
                 </li>
               </ul>
+
               <br />
-              <b>Academic highlights:</b>
+
+              <b>Systems & academic background:</b>
               <ul>
                 <li>
-                  Developed a <strong className="purple">software-based load balancer</strong> using Java and Socket Programming, implementing the
-                  Round-Robin algorithm for efficient traffic distribution across multiple servers. Integrated real-time server
-                  health monitoring to detect failures and reroute traffic dynamically, ensuring high availability and reliability.
+                  Built a <b className="purple">software-based load balancer</b> using Java and socket
+                  programming, implementing Round-Robin traffic distribution with real-time
+                  server health monitoring to ensure fault tolerance and high availability.
                 </li>
               </ul>
+
+              <br />
+
+              I’m particularly excited about roles where I can own features end to end,
+              work on systems at scale, and contribute to products that combine
+              <b className="purple"> strong engineering, thoughtful design, and real business impact</b>.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <div className="avatar-wrapper">
               <img src={myImg} className="avatar-img" alt="avatar" />
