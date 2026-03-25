@@ -25,6 +25,13 @@ const projects = [
     tech: ["Java", "Socket Programming", "Networking"],
     link: "https://github.com/Abdur1R/loadBalancer",
   },
+  {
+    title: "House Price Predictor",
+    description:
+      "Machine learning web app that predicts house prices based on user-input features. Built with a trained regression model and deployed with an interactive frontend for real-time price estimation.",
+    tech: ["Python", "Machine Learning", "Scikit-learn", "Flask", "HTML/CSS"],
+    link: "https://abdur1r.github.io/house-price-predictor-mlproject/",
+  },
 ];
 
 const ProjectsSection = () => (
