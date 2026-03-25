@@ -1,16 +1,24 @@
 {
-    "compilerOptions": {
-      "jsx": "react-jsx",
-      "moduleResolution": "Node",
-      "resolveJsonModule": true,
-      "allowSyntheticDefaultImports": true,
-      "esModuleInterop": true,
-      "strict": true,
-      "baseUrl": "./src",
-      "paths": {
-        "@/*": ["*"]
-      }
+  "compilerOptions": {
+    "allowJs": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
     },
-    "exclude": ["node_modules", "dist"]
-  }
-  
+    "skipLibCheck": true,
+    "strictNullChecks": false
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
