@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Copy, Check, Download } from "lucide-react";
 import { useState } from "react";
 import profileAvatar from "@/assets/profile-avatar.png";
+import LinkedinProfilePic from "../../public/LinkedinProfilePic.png"
 
 const ease: [number, number, number, number] = [0.23, 1, 0.32, 1];
 
@@ -104,7 +105,7 @@ const HeroSection = () => {
           >
             <div className="relative w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden border-2 border-border bg-card ring-4 ring-primary/10">
               <img
-                src={profileAvatar}
+                src={LinkedinProfilePic}
                 alt="Abdur Rahman Shaik"
                 className="w-full h-full object-cover"
               />

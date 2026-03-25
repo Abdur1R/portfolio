@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { User, Briefcase, FolderGit2, Cpu, GraduationCap, MessageSquare, Info } from "lucide-react";
 
 const links = [
-  { label: "About", href: "#hero", icon: User },
-  { label: "Intro", href: "#about", icon: Info },
+  { label: "Intro", href: "#hero", icon: User },
+  { label: "About", href: "#about", icon: Info },
   { label: "Experience", href: "#experience", icon: Briefcase },
   { label: "Projects", href: "#projects", icon: FolderGit2 },
   { label: "Skills", href: "#skills", icon: Cpu },
