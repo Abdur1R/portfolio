@@ -30,8 +30,8 @@ const AboutSection = () => (
       >
         <p className="text-base text-muted-foreground leading-relaxed">
           Hi, I'm <span className="text-foreground font-medium">Abdur Rahman Shaik</span>, a passionate full-stack developer
-          with over 2 years of experience crafting seamless web experiences. I'm currently pursuing my{" "}
-          <span className="text-foreground font-medium">Master's in Computer Science</span> at the University of Cincinnati.
+          with over 4 years of experience crafting seamless web experiences. I recently graduated with a{" "}
+          <span className="text-foreground font-medium">Master’s degree in Computer Science</span> from the University of Cincinnati.
         </p>
 
         <p className="text-base text-muted-foreground leading-relaxed">

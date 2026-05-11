@@ -23,6 +23,18 @@ const experiences = [
     ],
     tech: ["React", "Python", "Django", "Agile"],
   },
+    {
+    period: "May 2020 — Dec 2021",
+    role: "Software Engineer",
+    company: "Integr8 Software Products & Services",
+    bullets: [
+      "Developed and maintained software applications and workflow integrations over 1.5+ years using Python, Java, JavaScript, SQL, HTML, and REST-based web services.",
+      "Supported backend logic, database-driven functionality, troubleshooting, testing, and documentation for internal andclient-facing systems.",
+      "Workedwithteammatesandstakeholders to gather requirements, resolve issues, and deliver maintainable enhancements across multiple application modules.",
+      "Contributed to secure, structured application delivery through validation, debugging, and iterative release support."
+    ],
+    tech: ["React", "Python", "Django", "Agile"],
+  },
 ];
 
 const ExperienceSection = () => (
