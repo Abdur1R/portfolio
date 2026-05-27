@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Copy, Check, Download } from "lucide-react";
 import { useState } from "react";
-import profileAvatar from "@/assets/profile-avatar.png";
 import LinkedinProfilePic from "../../public/LinkedinProfilePic.png"
 
 const ease: [number, number, number, number] = [0.23, 1, 0.32, 1];
@@ -37,7 +36,7 @@ const HeroSection = () => {
             </div>
 
             {/* Name & Role */}
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-medium tracking-tighte leading-[1.05]">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-medium tracking-tight leading-[1.05]">
               Abdur Rahman Shaik
             </h1>
             <p className="mt-2 font-mono text-sm text-muted-foreground tracking-wide">
@@ -69,7 +68,7 @@ const HeroSection = () => {
               </button>
 
               <a
-                href="/AbdurRahman_Shaik_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}AbdurRahman_Shaik_Resume.pdf`}
                 download
                 className="group flex items-center gap-2 px-4 py-2.5 bg-primary/10 border border-primary/30 rounded-lg font-mono text-xs tracking-wide hover:bg-primary/20 hover:border-primary/50 transition-colors duration-200 text-primary"
               >
