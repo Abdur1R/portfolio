@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const ease: [number, number, number, number] = [0.23, 1, 0.32, 1];
 
 const highlights = [
-  { metric: "2+", label: "Years Experience" },
+  { metric: "4+", label: "Years Experience" },
   { metric: "20+", label: "Figma → Code Projects" },
   { metric: "300+", label: "NPM Weekly Downloads" },
   { metric: "3.9", label: "GPA (Masters)" },
