@@ -5,6 +5,20 @@ const ease: [number, number, number, number] = [0.23, 1, 0.32, 1];
 
 const projects = [
   {
+    title: "Aria — Personal AI Assistant",
+    description:
+      "Multi-provider virtual assistant integrating 4 LLM providers (Groq, SambaNova, OpenRouter, Hugging Face) with fallback routing, natural-language Q&A, and MongoDB persistence. FastAPI backend with a Vite + React PWA frontend.",
+    tech: ["Python", "FastAPI", "MongoDB", "React", "PWA", "Multi-LLM"],
+    link: "https://github.com/Abdur1R",
+  },
+  {
+    title: "Flight Search AI Agent",
+    description:
+      "Autonomous LLM agent that orchestrates tool and function calls to retrieve and summarize live flight data from natural-language queries, cutting manual search steps by 60% in test scenarios.",
+    tech: ["Python", "Agno / PhiData", "Groq", "SerpApi", "Streamlit"],
+    link: "https://flightsapp-6cgakub5tcblyymh6lxhrm.streamlit.app/",
+  },
+  {
     title: "AI-Powered Code Review System",
     description:
       "FastAPI backend integrating multiple LLM providers to auto-review pull requests. GitHub App webhooks + React UI for seamless repo onboarding and real-time inline AI feedback.",

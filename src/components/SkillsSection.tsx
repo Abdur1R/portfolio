@@ -4,28 +4,36 @@ const ease: [number, number, number, number] = [0.23, 1, 0.32, 1];
 
 const skillGroups = [
   {
+    label: "AI / LLMs",
+    items: ["LangGraph", "CrewAI", "LangChain", "RAG", "Pinecone", "Prompt Engineering", "Azure OpenAI", "RAGAS", "LangSmith", "Anthropic / OpenAI / Groq APIs"],
+  },
+  {
+    label: "ML / Computer Vision",
+    items: ["PyTorch", "TensorFlow / Keras", "scikit-learn", "OpenCV", "pandas", "NumPy"],
+  },
+  {
     label: "Languages",
     items: ["Python", "Java", "TypeScript", "JavaScript", "SQL", "C", "HTML/CSS"],
   },
   {
-    label: "Frontend",
-    items: ["React.js", "Bootstrap", "Module Federation", "SPA Architecture"],
-  },
-  {
     label: "Backend",
-    items: ["Spring Boot", "Django", "FastAPI", "Node.js", "RESTful APIs"],
+    items: ["FastAPI", "Spring Boot", "Django", "Node.js", "REST APIs", "Microservices", "Kafka"],
   },
   {
-    label: "Infrastructure",
-    items: ["AWS S3", "Kafka", "Jenkins", "ArgoCD", "Grafana", "Maven"],
+    label: "Frontend",
+    items: ["React.js", "React Native", "Angular", "Module Federation", "Webpack", "Bootstrap"],
   },
   {
-    label: "Databases",
-    items: ["PostgreSQL", "MongoDB"],
+    label: "Cloud / DevOps",
+    items: ["Azure (AKS, DevOps, Blob)", "AWS (S3, Lambda)", "GCP", "Docker", "Kubernetes", "Jenkins", "Argo CD", "GitHub Actions"],
   },
   {
-    label: "AI / ML",
-    items: ["LLM APIs", "AI Orchestration", "TensorFlow", "PyTorch", "scikit-learn", "NumPy"],
+    label: "Data",
+    items: ["PostgreSQL", "MySQL", "MongoDB", "Snowflake"],
+  },
+  {
+    label: "Observability",
+    items: ["OpenTelemetry", "Grafana", "Loki", "LangSmith"],
   },
 ];
 

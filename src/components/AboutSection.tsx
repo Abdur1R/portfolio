@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 const ease: [number, number, number, number] = [0.23, 1, 0.32, 1];
 
 const highlights = [
-  { metric: "4+", label: "Years Experience" },
-  { metric: "20+", label: "Figma → Code Projects" },
+  { metric: "5+", label: "Years Experience" },
+  { metric: "1M+", label: "Events / Day Processed" },
   { metric: "300+", label: "NPM Weekly Downloads" },
-  { metric: "3.9", label: "GPA (Masters)" },
+  { metric: "3.92", label: "GPA (Masters)" },
 ];
 
 const AboutSection = () => (
@@ -29,21 +29,28 @@ const AboutSection = () => (
         className="space-y-6"
       >
         <p className="text-base text-muted-foreground leading-relaxed">
-          Hi, I'm <span className="text-foreground font-medium">Abdur Rahman Shaik</span>, a passionate full-stack developer
-          with over 4 years of experience crafting seamless web experiences. I recently graduated with a{" "}
-          <span className="text-foreground font-medium">Master’s degree in Computer Science</span> from the University of Cincinnati.
+          Hi, I'm <span className="text-foreground font-medium">Abdur Rahman Shaik</span>, an AI engineer and full stack
+          developer with 5+ years of experience building, deploying, and supporting production applications, APIs, and
+          AI systems. I graduated with a{" "}
+          <span className="text-foreground font-medium">Master of Engineering in Computer Science</span> from the University
+          of Cincinnati (GPA 3.92).
         </p>
 
         <p className="text-base text-muted-foreground leading-relaxed">
-          I'm proficient in{" "}
-          <span className="text-primary">React.js, TypeScript, Java, Spring Boot, Python, Django, FastAPI</span>, and modern
-          cloud infrastructure. I love building products that sit at the intersection of great design and robust engineering.
+          I specialize in{" "}
+          <span className="text-primary">LLM and agentic applications, RAG pipelines, and multi-agent orchestration</span>,
+          backed by strong backend engineering in{" "}
+          <span className="text-primary">Python, Java, Spring Boot, FastAPI</span> and frontends in{" "}
+          <span className="text-primary">React and TypeScript</span>, shipped end to end with Docker, Kubernetes, and CI/CD
+          on Azure and AWS.
         </p>
 
         <p className="text-base text-muted-foreground leading-relaxed">
-          At <span className="text-foreground font-medium">Phenom</span>, I designed a Kafka-based streaming platform adopted
-          by enterprise clients like MERCK and Regions Bank, converted 20+ Figma designs into production apps, and built
-          internal tools that cut QA effort by 42%.
+          Today I'm an <span className="text-foreground font-medium">AI Software Engineer at Jabil</span>, applying computer
+          vision and RAG to manufacturing quality. Before that I built agentic clinical automation at{" "}
+          <span className="text-foreground font-medium">Optum</span>, and at{" "}
+          <span className="text-foreground font-medium">Phenom</span> I architected a Kafka-based analytics platform
+          processing 1M+ events a day for enterprise clients like MERCK and Regions Bank.
         </p>
       </motion.div>
 

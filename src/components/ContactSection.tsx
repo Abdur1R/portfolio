@@ -25,7 +25,7 @@ const socials = [
   },
   {
     label: "Location",
-    value: "Cincinnati, OH",
+    value: "Cincinnati, OH (Open to relocate)",
     href: "#",
     icon: MapPin,
   },

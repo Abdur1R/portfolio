@@ -41,12 +41,12 @@ const HeroSection = () => {
               Abdur Rahman Shaik
             </h1>
             <p className="mt-2 font-mono text-sm text-muted-foreground tracking-wide">
-              Full Stack Developer
+              AI Engineer · Full Stack Developer
             </p>
 
             <p className="mt-8 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed text-balance">
-              Building high-performance interfaces and scalable distributed systems.
-              Focused on the intersection of design systems, cloud infrastructure, and AI.
+              Building LLM and agentic AI systems, RAG pipelines, and scalable full stack applications.
+              Five years of shipping production software across Python, Java, React, and the cloud.
             </p>
 
             {/* Actions */}
